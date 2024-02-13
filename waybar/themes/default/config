@@ -1,0 +1,86 @@
+{
+    "include": ["~/dotfiles/waybar/modules.json"],
+
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 24, // Waybar height (to be removed for auto height)
+    "spacing": -2, // Gaps between modules (4px)
+
+    "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window"],
+
+    "modules-center": ["idle_inhibitor", "clock"],
+
+    "modules-right": ["custom/updates", "custom/separator", "backlight", "custom/separator", "pulseaudio", "custom/separator", "group/hardware",  "custom/separator", "temperature", "custom/separator", "network", "custom/separator", "battery", "custom/separator", "tray"],
+
+     "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "format":"{icon}",
+         "format-icons": {
+             "1": "I",
+             "2": "II",
+             "3": "III",
+             "4": "IV",
+             "5": "V",
+             "6": "VI",
+             "7": "VII",
+             "8": "VIII",
+             "9": "IX",
+             "10": "X",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%Y-%m-%d %H:%M}",
+        "interval": 60
+    },
+
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": [""]
+    },
+
+   "custom/separator": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+    },
+
+
+
+
+
+//    "network": {
+//        // "interface": "wlp2*", // (Optional) To force the use of this interface
+//        "format-wifi": "{essid} ({signalStrength}%) ",
+//        "format-ethernet": "{ipaddr}/{cidr} ",
+//        "tooltip-format": "{ifname} via {gwaddr} ",
+//        "format-linked": "{ifname} (No IP) ",
+//        "format-disconnected": "Disconnected ⚠",
+//        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+//    },
+//    "pulseaudio": {
+//        // "scroll-step": 1, // %, can be a float
+//        "format": "{volume}% {icon} {format_source}",
+//        "format-bluetooth": "{volume}% {icon} {format_source}",
+//        "format-bluetooth-muted": " {icon} {format_source}",
+//        "format-muted": " {format_source}",
+//        "format-source":  "",
+//        "format-source-muted": "",
+//        "format-icons": {
+//            "headphone": "",
+//            "hands-free": "",
+//            "headset": "",
+//            "phone": "",
+//            "portable": "",
+//            "car": "",
+//            "default": [" ", " ", " "]
+//        },
+//        "on-click": "pavucontrol"
+//    },
+//    }
+}
+
