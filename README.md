@@ -1,10 +1,10 @@
 # True Black Hyprland
 
-this is my dotfiles for the arch linux and hyprland setup that i'm currently using on a regular basis.
+These are my dotfiles for the Arch Linux and hyprland setup that I'm currently using regularly. 
 
-i did not build this from the ground up, i used as a starting point the dotfiles from [stephan raabe](https://gitlab.com/stephan-raabe/dotfiles) from [ml4w](https://www.youtube.com/@mylinuxforwork) channel hyrprland setup cus it gave arch linux good stability with all its updates and general arch maintenance scripts.
+I did not build them from scratch, I used as a starting point the dotfiles from [Stephan Raabe](https://gitlab.com/stephan-raabe/dotfiles) on the [ML4W](https://www.youtube.com/@mylinuxforwork) channel for the Hyprland setup cus it provides Arch Linux with good stability through all its updates and general Arch maintenance scripts. 
 
-the setup currently follows a true dark theme with pitch black as its major color.
+The setup currently follows a true dark theme with pitch black as its major color.
 
 # Screenshots
 ![screenshot-1](/screenshots/screenshot-20240213-032110.png?raw=true)
