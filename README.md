@@ -2,7 +2,7 @@
 
 These are my dotfiles for the Arch Linux and hyprland setup that I'm currently using regularly. 
 
-I did not build them from scratch, I used as a starting point the dotfiles from [Stephan Raabe](https://gitlab.com/stephan-raabe/dotfiles) on the [ML4W](https://www.youtube.com/@mylinuxforwork) channel for the Hyprland setup cus it provides Arch Linux with good stability through all its updates and general Arch maintenance scripts. 
+I did not build them from scratch, I used as a starting point the dotfiles from [Stephan Raabe](https://gitlab.com/stephan-raabe/dotfiles) on the [ML4W] for the Hyprland setup cus it provides Arch Linux with good stability through all its updates and general Arch maintenance scripts. 
 
 The setup currently follows a true dark theme with pitch black as its major color.
 
