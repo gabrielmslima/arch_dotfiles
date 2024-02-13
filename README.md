@@ -24,4 +24,4 @@ The setup currently follows a true dark theme with pitch black as its major colo
 # Future updates
 - Soon it will be added a matching theme wallpapers folder.
 - Gtk2/Gtk3 themes and icons will be changed to match the color scheme
-- I have a install script being on the way!
+- I have a install script being worked on !
