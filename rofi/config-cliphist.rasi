@@ -46,8 +46,7 @@ mainbox {
     orientation:                  horizontal;
     spacing:                      0px;
     margin:                       0px;
-    background-color:             @background;
-    background-image:             @current-image;
+    background-color:             #000;
     children:                     ["listbox"];
 }
 
@@ -150,7 +149,7 @@ element {
     cursor:                       pointer;
     background-color:             @background;
     border-radius:                0px;
-    border:                       2px;
+    border:                       1px;
 }
 
 element normal.normal {
